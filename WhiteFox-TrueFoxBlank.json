@@ -20,10 +20,6 @@
                 "0": {
                     "key": "ESC",
                     "label": "ESC"
-                },
-                "1": {
-                    "key": "#:toggleKbdProtocol()",
-                    "label": "6\/N-KRO"
                 }
             }
         },
@@ -239,8 +235,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
+                    "key": "BACKSPACE",
+                    "label": "BKSP"
                 },
                 "1": {
                     "key": "HOME",
@@ -433,8 +429,8 @@
                     "label": "["
                 },
                 "1": {
-                    "key": "#:ledControl( 3, 15, 0 )",
-                    "label": "LED-"
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -450,8 +446,8 @@
                     "label": "]"
                 },
                 "1": {
-                    "key": "#:ledControl( 4, 15, 0 )",
-                    "label": "LED+"
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -463,8 +459,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSPACE",
-                    "label": "BKSP"
+                    "key": "BACKSLASH",
+                    "label": "\\"
                 },
                 "1": {
                     "key": "#:ledControl( 5, 0, 0 )",
